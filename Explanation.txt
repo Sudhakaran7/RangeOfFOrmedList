@@ -1,0 +1,55 @@
+You given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
+After this process, we have some array B.
+Return the smallest possible difference between the maximum value of B and the minimum value of B.
+
+Input Description:
+First line contains, n and k. n the size of the list. (1<n,k<1000)
+Second line contains, n elements of list.
+
+Output Description:
+Print the smallest possible difference between the maximum value of B and the minimum value of B.
+
+Sample Input:
+1 0
+1
+
+Sample Output:
+0
+
+Explanation:
+the array b will be [1] so the output is 0.
+
+Sample Input:
+3 2
+4 6 8
+
+Sample Output:
+2
+
+Sample Input:
+5 3
+1 2 3 4 5
+
+Sample Output:
+4
+
+Sample Input:
+6 4
+34 56 78 29 101 102
+
+Sample Outpupt:
+65
+
+Sample Input:
+3 6
+222 234 678
+
+Sample Output:
+444
+
+Sample Input:
+8 22
+334 456 783 999 347 876 288 888
+
+Sample Output:
+667
